@@ -15,3 +15,20 @@
 // console.log(" The sum of 45 & 12  = " +(a+b)); 
 // console.log(" The sum of 45 & 12  = " ,(a+b)); 
 
+// 3- Accept two integers from user and print the sum
+// 	Ex - The sum of 45 & 12 = 57
+
+let num1 = +prompt("enter num1 :");
+let num2 = +prompt("enter num2 :");
+
+console.log(` The sum of 45 & 12  = ${num1+num2}`);
+
+
+
+
+
+
+
+
+
+
