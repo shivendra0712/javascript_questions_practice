@@ -185,3 +185,20 @@
 //       else print Wrong Input
 
 //  same 13 
+
+// 15- Accept an integer and check whether it is an even number or odd.
+
+let n = Number(prompt("enter number :"));
+
+if(n%2 == 0){
+     console.log(`even number is ${n} `);
+}
+else if(n%2 != 0){
+    console.log(`odd number is ${n} `);
+}
+else{
+    console.log(`invalid number is ${n} `);
+}
+
+// output
+// even number is 12 
