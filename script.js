@@ -226,34 +226,53 @@
 
 // 17- Accept a day number between 1-7 and print the corresponding dayname.
 
-let day = Number(prompt("enter day name is:"));
+// let day = Number(prompt("enter day name is:"));
 
-switch (day) {
-    case 1:
-        console.log(`${day} is Monday`);
-        break;
-    case 2:
-        console.log(`${day} is Tuesday`);
-        break;
-    case 3:
-        console.log(`${day} is Wednessday`);
-        break;
-    case 4:
-        console.log(`${day} is Thusday`);
-        break;
-    case 5:
-        console.log(`${day} is Friday`);
-        break;
-    case 6:
-        console.log(`${day} is Saturday`);
-        break;
-    case 7:
-        console.log(`${day} is Sunday`);
-        break;
-    default :
-        console.log(`${day} is invalid value`);
-}
+// switch (day) {
+//     case 1:
+//         console.log(`${day} is Monday`);
+//         break;
+//     case 2:
+//         console.log(`${day} is Tuesday`);
+//         break;
+//     case 3:
+//         console.log(`${day} is Wednessday`);
+//         break;
+//     case 4:
+//         console.log(`${day} is Thusday`);
+//         break;
+//     case 5:
+//         console.log(`${day} is Friday`);
+//         break;
+//     case 6:
+//         console.log(`${day} is Saturday`);
+//         break;
+//     case 7:
+//         console.log(`${day} is Sunday`);
+//         break;
+//     default :
+//         console.log(`${day} is invalid value`);
+// }
 
 // output
 // 4 is Thusday
+
+// 18- Accept three numbers and print the greatest among them
+
+ let num1 = Number(prompt("enter num1 is :"));
+ let num2 = Number(prompt("enter num2 is :"));
+ let num3 = Number(prompt("enter num3 is :"));
+
+ if(num1 > num2 && num1 > num3){
+     console.log(`num1 is greater number is ${num1}`);
+ }
+ else if(num2 > num1 && num2 > num3){
+    console.log(`num2 is greater number is ${num2}`);
+}
+else{
+    console.log(`num3 is greater number is ${num3}`);
+}
+
+// output
+// num3 is greater number is 18
 
