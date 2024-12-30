@@ -48,6 +48,28 @@
 
 
 
+// 6- Accept two numbers from user and swap their values
+// Part 2 - Swap without using third variable
+
+let num1 = Number(prompt("enter num1 :"));
+let num2 = Number(prompt("enter num1 :"));
+console.log("num1 is", num1);
+console.log("num2 is", num2);
+
+num1 = num1 + num2;
+num2 =  num1 - num2;
+num1 = num1 - num2;
+
+console.log("num1 is", num1);
+console.log("num2 is", num2);
+
+// output:
+// num1 is 10
+// num2 is 20
+// num1 is 20
+// num2 is 10
+
+
 
 
 
