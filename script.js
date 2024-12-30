@@ -209,18 +209,51 @@
 // 	Part 2 - Print after how many years the user will be eligible.
 
 
-let name = prompt("enter your name:");
-let age = Number(prompt("enter your age:"));
+// let name = prompt("enter your name:");
+// let age = Number(prompt("enter your age:"));
 
 
-if(age >= 18){
-     console.log(`Hello ${name}, You are a valid voter. your age is ${age}`);
-}
-else if(age < 18){
-    age = 18 - age;
-    console.log(`Sorry ${name}, you can't cast the vote, you will eligible after ${age} years`);
-}
-
+// if(age >= 18){
+//      console.log(`Hello ${name}, You are a valid voter. your age is ${age}`);
+// }
+// else if(age < 18){
+//     age = 18 - age;
+//     console.log(`Sorry ${name}, you can't cast the vote, you will eligible after ${age} years`);
+// }
 
 // output
 // Hello shivendra, You are a valid voter. your age is 22
+
+// 17- Accept a day number between 1-7 and print the corresponding dayname.
+
+let day = Number(prompt("enter day name is:"));
+
+switch (day) {
+    case 1:
+        console.log(`${day} is Monday`);
+        break;
+    case 2:
+        console.log(`${day} is Tuesday`);
+        break;
+    case 3:
+        console.log(`${day} is Wednessday`);
+        break;
+    case 4:
+        console.log(`${day} is Thusday`);
+        break;
+    case 5:
+        console.log(`${day} is Friday`);
+        break;
+    case 6:
+        console.log(`${day} is Saturday`);
+        break;
+    case 7:
+        console.log(`${day} is Sunday`);
+        break;
+    default :
+        console.log(`${day} is invalid value`);
+}
+
+// output
+// 4 is Thusday
+
