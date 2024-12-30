@@ -52,7 +52,7 @@
 // Part 2 - Swap without using third variable
 
 // let num1 = Number(prompt("enter num1 :"));
-// let num2 = Number(prompt("enter num1 :"));
+// let num2 = Number(prompt("enter num2 :"));
 // console.log("num1 is", num1);
 // console.log("num2 is", num2);
 
@@ -141,9 +141,23 @@
 // formula  Circumference of a Circle	C = 2 × π × r
 // Area of a Circle	A = π × r**2
 
-let r = Number(prompt("enter radius of sphere :"));
+// let r = Number(prompt("enter radius of sphere :"));
 
-console.log(`r is ${r} , Circumference of a Circle ${2 * (22/7) * r} , Area of a Circle ${(22/7) * r**2}`);
+// console.log(`r is ${r} , Circumference of a Circle ${2 * (22/7) * r} , Area of a Circle ${(22/7) * r**2}`);
 
 // output:
 // r is 8 , Circumference of a Circle 50.28 , Area of a Circle 201.14
+
+// --------------------------------------------------------------IF ELSE Day 8 to 11-------------------------------------------------------------
+
+// 12- Accept two numbers and print the greatest between them
+
+let num1 = Number(prompt("enter num1 :"));
+let num2 = Number(prompt("enter num2 :"));
+
+let ans = num1 > num2 ? num1 : num2;
+console.log(`num1 is ${num1} , num2 is ${num2}  , and greatest  number ${ans}`);
+
+// output
+// num1 is 10 , num2 is 25  , and greatest  number 25
+
