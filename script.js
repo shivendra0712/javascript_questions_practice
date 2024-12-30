@@ -112,15 +112,28 @@
 // semi-perimeter, s = (a + b + c)/2;
 // Area of triangle = √(s(s-a)(s-b)(s-c))
 
-let a = Number(prompt("enter triabgle first side :"));
-let b = Number(prompt("enter triabgle second side  :"));
-let c = Number(prompt("enter triabgle third side :"));
+// let a = Number(prompt("enter triabgle first side :"));
+// let b = Number(prompt("enter triabgle second side  :"));
+// let c = Number(prompt("enter triabgle third side :"));
 
-let  s = (a+b+c)/2;
-let area = Math.sqrt(s*(s-a)*(s-b)*(s-c));
+// let  s = (a+b+c)/2;
+// let area = Math.sqrt(s*(s-a)*(s-b)*(s-c));
 
-console.log(`a is ${a} , b is ${b} , c is ${c} , and area of triangle is ${area}`);
+// console.log(`a is ${a} , b is ${b} , c is ${c} , and area of triangle is ${area}`);
 
 // output:
 // a is 5 , b is 6 , c is 9 , and area of triangle is 14.14
+
+// 10- Find surface area of sphere
+
+// formula sphere area of suface = 4πr**2
+//  π = 22/7
+
+let r = Number(prompt("enter radius of sphere :"));
+
+console.log(`r is ${r} , sphere area of suface ${4 * (22/7) * r**2}`);
+
+// output:
+// r is 7 , sphere area of suface 616
+
 
