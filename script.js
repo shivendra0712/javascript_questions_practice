@@ -259,20 +259,35 @@
 
 // 18- Accept three numbers and print the greatest among them
 
- let num1 = Number(prompt("enter num1 is :"));
- let num2 = Number(prompt("enter num2 is :"));
- let num3 = Number(prompt("enter num3 is :"));
+//  let num1 = Number(prompt("enter num1 is :"));
+//  let num2 = Number(prompt("enter num2 is :"));
+//  let num3 = Number(prompt("enter num3 is :"));
 
- if(num1 > num2 && num1 > num3){
-     console.log(`num1 is greater number is ${num1}`);
- }
- else if(num2 > num1 && num2 > num3){
-    console.log(`num2 is greater number is ${num2}`);
-}
-else{
-    console.log(`num3 is greater number is ${num3}`);
-}
+//  if(num1 > num2 && num1 > num3){
+//      console.log(`num1 is greater number is ${num1}`);
+//  }
+//  else if(num2 > num1 && num2 > num3){
+//     console.log(`num2 is greater number is ${num2}`);
+// }
+// else{
+//     console.log(`num3 is greater number is ${num3}`);
+// }
 
 // output
 // num3 is greater number is 18
+
+// 19- Accept a year and check if it a leap year or not (google to find out what's a leap year)
+
+let year = Number(prompt("enter year  :"));
+
+if(year % 400 == 0){
+     console.log(`${year} is a leap year`);
+}else if(year % 4 == 0 && year % 100 !=0){
+    console.log(`${year} is a leap year`);
+}else{
+    console.log(`${year} is not a leap year`);
+}
+
+// output
+// 2024 is a leap year
 
