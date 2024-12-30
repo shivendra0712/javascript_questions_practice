@@ -129,11 +129,21 @@
 // formula sphere area of suface = 4πr**2
 //  π = 22/7
 
-let r = Number(prompt("enter radius of sphere :"));
+// let r = Number(prompt("enter radius of sphere :"));
 
-console.log(`r is ${r} , sphere area of suface ${4 * (22/7) * r**2}`);
+// console.log(`r is ${r} , sphere area of suface ${4 * (22/7) * r**2}`);
 
 // output:
 // r is 7 , sphere area of suface 616
 
+// 11- Find circumference and area of circle
 
+// formula  Circumference of a Circle	C = 2 × π × r
+// Area of a Circle	A = π × r**2
+
+let r = Number(prompt("enter radius of sphere :"));
+
+console.log(`r is ${r} , Circumference of a Circle ${2 * (22/7) * r} , Area of a Circle ${(22/7) * r**2}`);
+
+// output:
+// r is 8 , Circumference of a Circle 50.28 , Area of a Circle 201.14
