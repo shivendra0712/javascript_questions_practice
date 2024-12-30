@@ -164,18 +164,24 @@
 // 13- Accept the gender from the user as char and print the respective greeting message
 // Ex - Good Morning Sir (on the basis of gender)
 
-let gender = prompt("enter gender  :");
+// let gender = prompt("enter gender  :");
 
-if(gender == 'F' || gender == 'f' ){
-     console.log(`Good Morning Ma'am ${gender}`);
-}
-else if(gender == 'M'|| gender == 'm' ){
-    console.log(`Good Morning Sir ${gender}`);
-}
-else{
-    console.log(`invalid gender  ${gender}`);
-}
+// if(gender == 'F' || gender == 'f' ){
+//      console.log(`Good Morning Ma'am ${gender}`);
+// }
+// else if(gender == 'M'|| gender == 'm' ){
+//     console.log(`Good Morning Sir ${gender}`);
+// }
+// else{
+//     console.log(`invalid gender  ${gender}`);
+// }
 
 // output
 // Good Morning Ma'am f
 
+
+// 14- Extend the previous program and handle the wrong inputs.
+//       Print Good Morning sir for input m or M & Good morning Maam for input F or f 
+//       else print Wrong Input
+
+//  same 13 
