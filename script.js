@@ -152,12 +152,30 @@
 
 // 12- Accept two numbers and print the greatest between them
 
-let num1 = Number(prompt("enter num1 :"));
-let num2 = Number(prompt("enter num2 :"));
+// let num1 = Number(prompt("enter num1 :"));
+// let num2 = Number(prompt("enter num2 :"));
 
-let ans = num1 > num2 ? num1 : num2;
-console.log(`num1 is ${num1} , num2 is ${num2}  , and greatest  number ${ans}`);
+// let ans = num1 > num2 ? num1 : num2;
+// console.log(`num1 is ${num1} , num2 is ${num2}  , and greatest  number ${ans}`);
 
 // output
 // num1 is 10 , num2 is 25  , and greatest  number 25
+
+// 13- Accept the gender from the user as char and print the respective greeting message
+// Ex - Good Morning Sir (on the basis of gender)
+
+let gender = prompt("enter gender  :");
+
+if(gender == 'F' || gender == 'f' ){
+     console.log(`Good Morning Ma'am ${gender}`);
+}
+else if(gender == 'M'|| gender == 'm' ){
+    console.log(`Good Morning Sir ${gender}`);
+}
+else{
+    console.log(`invalid gender  ${gender}`);
+}
+
+// output
+// Good Morning Ma'am f
 
