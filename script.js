@@ -73,13 +73,31 @@
 
 // 7- Accept the length and width of a rectangle. Calculate & print the area and perimeter.
 
-let len = Number(prompt("enter length :"));
-let wid = Number(prompt("enter width :"));
+// let len = Number(prompt("enter length :"));
+// let wid = Number(prompt("enter width :"));
 
-console.log("Area of rectangle ", (len * wid));
+// console.log("Area of rectangle ", (len * wid));
 
-console.log("Perimeter of rectangle ", 2*(len + wid));
+// console.log("Perimeter of rectangle ", 2*(len + wid));
 
 // output:
 // Area of rectangle  6
 // Perimeter of rectangle  10
+
+
+// 8- Accept the parameters and calculate the Compound Interest & print it on STDOUT (Use Math class methods)
+
+// formula CI = A – P
+// A=P(1+(r/n))**nt
+
+ let p = Number(prompt("enter principal :"));
+ let r = Number(prompt("enter rate :"));
+ let t = Number(prompt("enter time :"));
+
+ let a = p*((1 + (r/100))**t);
+ let CI = a - p;
+
+ console.log("Compound Interest is ", CI);
+ 
+// output:
+// Compound Interest is  5250
