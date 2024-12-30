@@ -51,17 +51,17 @@
 // 6- Accept two numbers from user and swap their values
 // Part 2 - Swap without using third variable
 
-let num1 = Number(prompt("enter num1 :"));
-let num2 = Number(prompt("enter num1 :"));
-console.log("num1 is", num1);
-console.log("num2 is", num2);
+// let num1 = Number(prompt("enter num1 :"));
+// let num2 = Number(prompt("enter num1 :"));
+// console.log("num1 is", num1);
+// console.log("num2 is", num2);
 
-num1 = num1 + num2;
-num2 =  num1 - num2;
-num1 = num1 - num2;
+// num1 = num1 + num2;
+// num2 =  num1 - num2;
+// num1 = num1 - num2;
 
-console.log("num1 is", num1);
-console.log("num2 is", num2);
+// console.log("num1 is", num1);
+// console.log("num2 is", num2);
 
 // output:
 // num1 is 10
@@ -69,11 +69,17 @@ console.log("num2 is", num2);
 // num1 is 20
 // num2 is 10
 
+// ---------------------------------------------------------------MATH CLASS Day 7------------------------------------------------------
 
+// 7- Accept the length and width of a rectangle. Calculate & print the area and perimeter.
 
+let len = Number(prompt("enter length :"));
+let wid = Number(prompt("enter width :"));
 
+console.log("Area of rectangle ", (len * wid));
 
+console.log("Perimeter of rectangle ", 2*(len + wid));
 
-
-
-
+// output:
+// Area of rectangle  6
+// Perimeter of rectangle  10
