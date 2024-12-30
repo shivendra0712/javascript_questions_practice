@@ -76,11 +76,14 @@
 // let len = Number(prompt("enter length :"));
 // let wid = Number(prompt("enter width :"));
 
+//console.log(`len is ${len} and wid is ${wid}`);
+
 // console.log("Area of rectangle ", (len * wid));
 
 // console.log("Perimeter of rectangle ", 2*(len + wid));
 
 // output:
+// len is 2 and wid is 3
 // Area of rectangle  6
 // Perimeter of rectangle  10
 
@@ -90,14 +93,34 @@
 // formula CI = A – P
 // A=P(1+(r/n))**nt
 
- let p = Number(prompt("enter principal :"));
- let r = Number(prompt("enter rate :"));
- let t = Number(prompt("enter time :"));
+//  let p = Number(prompt("enter principal :"));
+//  let r = Number(prompt("enter rate :"));
+//  let t = Number(prompt("enter time :"));
 
- let a = p*((1 + (r/100))**t);
- let CI = a - p;
+//  let a = p*((1 + (r/100))**t);
+//  let CI = a - p;
 
- console.log("Compound Interest is ", CI);
- 
+//  console.log(`p is ${p}, r is ${r},  t is ${t} ,and Compound Interest is ${CI}`);
+
 // output:
-// Compound Interest is  5250
+// p is 25000 , r is 10 , t is 2 ,and Compound Interest is  5250
+
+
+// 9- Accept the three sides of triangle and calculate the area using herons formula
+
+// formula
+// semi-perimeter, s = (a + b + c)/2;
+// Area of triangle = √(s(s-a)(s-b)(s-c))
+
+let a = Number(prompt("enter triabgle first side :"));
+let b = Number(prompt("enter triabgle second side  :"));
+let c = Number(prompt("enter triabgle third side :"));
+
+let  s = (a+b+c)/2;
+let area = Math.sqrt(s*(s-a)*(s-b)*(s-c));
+
+console.log(`a is ${a} , b is ${b} , c is ${c} , and area of triangle is ${area}`);
+
+// output:
+// a is 5 , b is 6 , c is 9 , and area of triangle is 14.14
+
