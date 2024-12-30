@@ -188,17 +188,39 @@
 
 // 15- Accept an integer and check whether it is an even number or odd.
 
-let n = Number(prompt("enter number :"));
+// let n = Number(prompt("enter number :"));
 
-if(n%2 == 0){
-     console.log(`even number is ${n} `);
-}
-else if(n%2 != 0){
-    console.log(`odd number is ${n} `);
-}
-else{
-    console.log(`invalid number is ${n} `);
-}
+// if(n%2 == 0){
+//      console.log(`even number is ${n} `);
+// }
+// else if(n%2 != 0){
+//     console.log(`odd number is ${n} `);
+// }
+// else{
+//     console.log(`invalid number is ${n} `);
+// }
 
 // output
 // even number is 12 
+
+// 16- Accept name and age from the user. Check if the user is a valid voter or not.
+//       Vaid - Hello Shery, You are a valid voter.
+//       Invalid - Sorry Shery, you can't cast the vote.
+// 	Part 2 - Print after how many years the user will be eligible.
+
+
+let name = prompt("enter your name:");
+let age = Number(prompt("enter your age:"));
+
+
+if(age >= 18){
+     console.log(`Hello ${name}, You are a valid voter. your age is ${age}`);
+}
+else if(age < 18){
+    age = 18 - age;
+    console.log(`Sorry ${name}, you can't cast the vote, you will eligible after ${age} years`);
+}
+
+
+// output
+// Hello shivendra, You are a valid voter. your age is 22
