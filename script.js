@@ -297,7 +297,7 @@
 
 // if(alpha =='A' || alpha =='E' || alpha =='I' || alpha =='O' || alpha =='U' || alpha =='a' || alpha =='e' || alpha =='i' || alpha =='o' || alpha =='u'){
 //     console.log(`vowel is ${alpha}`);
-    
+
 // }
 // else{
 //     console.log(`consonent is ${alpha}`);
@@ -447,7 +447,7 @@
 // for(let i =1 ; i<n ;i++){
 //     if(n%i == 0){
 //         sum += i;
-       
+
 //     }
 // }
 // console.log("sum of all factors of a number",sum);
@@ -532,7 +532,7 @@
 //  rem = n%10;
 //  ans = (ans * 10) + rem;
 //  n = Math.floor(n/10);
- 
+
 // }
 // console.log(ans);
 
@@ -544,20 +544,48 @@
 // Ex - 12321 - Rerverse - 12321
 
 
-let n = +prompt("enter a number :");
-let val =n;
-let rem=0;
-let ans=0;
-while(n != 0){
- rem = n%10;
- ans = (ans * 10) + rem;
- n = Math.floor(n/10);
- 
-}
-console.log(val == ans ? "pallindromic": "not pallindromic");
+// let n = +prompt("enter a number :");
+// let val =n;
+// let rem=0;
+// let ans=0;
+// while(n != 0){
+//  rem = n%10;
+//  ans = (ans * 10) + rem;
+//  n = Math.floor(n/10);
+
+// }
+// console.log(val == ans ? "pallindromic": "not pallindromic");
 
 // output
 // n= 12345
 // not pallindromic
 
+// 38- Accept a number and check if it is a strong number or not (Sum of factorial of each digit)
+//    Ex- 145 = 1! + 4! + 5! = 145
+
+let n = +prompt("enter a number :");
+let temp = n;
+let val = 0;
+function fun(v) {
+    let fac = 1;
+    for (let i = 1; i <= v; i++) {
+        fac *= i;
+    }
+    return fac;
+}
+
+
+let rem = 0;
+while (n != 0) {
+    rem = n % 10;
+    n = Math.floor(n / 10);
+    val = val + fun(rem);
+    
+}
+// console.log(val);
+console.log(temp == val ? "strong number" : "not strong number");
+
+// output
+// 145
+//  strong number
 
