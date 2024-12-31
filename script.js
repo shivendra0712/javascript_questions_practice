@@ -337,14 +337,38 @@
 
 // 25- Reverse for loop. Print n to 1.
 
-let n = +prompt("enter an number :");
+// let n = +prompt("enter an number :");
 
-for(let i = n ; i>=1 ;i--){
-    console.log(i);
-}
+// for(let i = n ; i>=1 ;i--){
+//     console.log(i);
+// }
 
 // output 
 //  n=3
 // 3
 // 2
 // 1 
+
+// 26- Take a number as input and print its table
+// 5 * 1 = 5
+// 5 * 2 = 10 ... up to 10 terms
+
+let n = +prompt("enter an number :");
+
+
+for(let i =1 ; i<=10 ;i++){
+    console.log(`${n} * ${i} = ${n*i}`);
+}
+
+// output 
+//  n=5
+// 5 * 1 = 5
+// 5 * 2 = 10
+// 5 * 3 = 15
+// 5 * 4 = 20
+// 5 * 5 = 25
+// 5 * 6 = 30
+// 5 * 7 = 35
+// 5 * 8 = 40
+// 5 * 9 = 45
+// 5 * 10 = 50
