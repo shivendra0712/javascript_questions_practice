@@ -563,29 +563,53 @@
 // 38- Accept a number and check if it is a strong number or not (Sum of factorial of each digit)
 //    Ex- 145 = 1! + 4! + 5! = 145
 
-let n = +prompt("enter a number :");
-let temp = n;
-let val = 0;
-function fun(v) {
-    let fac = 1;
-    for (let i = 1; i <= v; i++) {
-        fac *= i;
-    }
-    return fac;
-}
+// let n = +prompt("enter a number :");
+// let temp = n;
+// let val = 0;
+// function fun(v) {
+//     let fac = 1;
+//     for (let i = 1; i <= v; i++) {
+//         fac *= i;
+//     }
+//     return fac;
+// }
 
 
-let rem = 0;
-while (n != 0) {
-    rem = n % 10;
-    n = Math.floor(n / 10);
-    val = val + fun(rem);
+// let rem = 0;
+// while (n != 0) {
+//     rem = n % 10;
+//     n = Math.floor(n / 10);
+//     val = val + fun(rem);
     
-}
-// console.log(val);
-console.log(temp == val ? "strong number" : "not strong number");
+// }
+// // console.log(val);
+// console.log(temp == val ? "strong number" : "not strong number");
 
 // output
 // 145
 //  strong number
 
+
+// 39- Automorphic number 5 = 25 = 625 = 390625, 6=36, 76 = 5776
+
+
+let n = +prompt("enter a number :");
+let sq = Math.pow(n,2)
+console.log(sq);
+
+
+let rem = 0;
+let temp = true;
+while (n != 0) {
+     if(n % 10 != sq % 10){
+        temp = false;
+         break;
+     }
+    sq = Math.floor(sq / 10);
+    n = Math.floor(n / 10);
+}
+
+console.log(temp ? "Automorphic": "not Automorphic");
+
+// output
+// Automorphic
