@@ -389,13 +389,33 @@
 
 // 28- Factorial of a number
 
-let n = +prompt("enter an number :");
-let fac =1;
-for(let i =1 ; i<=n ;i++){
-     fac *=i;
-}
-console.log(`Factorial number of ${n} is ${fac}`);
+// let n = +prompt("enter an number :");
+// let fac =1;
+// for(let i =1 ; i<=n ;i++){
+//      fac *=i;
+// }
+// console.log(`Factorial number of ${n} is ${fac}`);
 
 // output 
 // Factorial number of 5 is 120
 
+//  29- Print the sum of all even & odd numbers in a range seperately.
+
+let n = +prompt("enter an number :");
+
+let sum_even =0 , sum_odd =0;
+
+for(let i =1 ; i<=n ;i++){
+    if(i%2 == 0){
+        sum_even += i
+    }
+    else if(i%2 != 0){
+        sum_odd += i
+    }
+}
+
+console.log(`sum of even number is ${sum_even} and sum of odd number is ${sum_odd}`);
+
+// output 
+//  n= 10
+// sum of even number is 30 and sum of odd number is 25
