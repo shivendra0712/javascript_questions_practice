@@ -278,16 +278,32 @@
 
 // 19- Accept a year and check if it a leap year or not (google to find out what's a leap year)
 
-let year = Number(prompt("enter year  :"));
+// let year = Number(prompt("enter year  :"));
 
-if(year % 400 == 0){
-     console.log(`${year} is a leap year`);
-}else if(year % 4 == 0 && year % 100 !=0){
-    console.log(`${year} is a leap year`);
-}else{
-    console.log(`${year} is not a leap year`);
-}
+// if(year % 400 == 0){
+//      console.log(`${year} is a leap year`);
+// }else if(year % 4 == 0 && year % 100 !=0){
+//     console.log(`${year} is a leap year`);
+// }else{
+//     console.log(`${year} is not a leap year`);
+// }
 
 // output
 // 2024 is a leap year
+
+// 22- Accept an english alphabet from user and check if it is a consonent or a vowel;
+
+// let alpha = prompt("enter an english alphabet :");
+
+// if(alpha =='A' || alpha =='E' || alpha =='I' || alpha =='O' || alpha =='U' || alpha =='a' || alpha =='e' || alpha =='i' || alpha =='o' || alpha =='u'){
+//     console.log(`vowel is ${alpha}`);
+    
+// }
+// else{
+//     console.log(`consonent is ${alpha}`);
+// }
+
+
+// output
+// vowel is A
 
