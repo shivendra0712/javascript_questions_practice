@@ -353,12 +353,12 @@
 // 5 * 1 = 5
 // 5 * 2 = 10 ... up to 10 terms
 
-let n = +prompt("enter an number :");
+// let n = +prompt("enter an number :");
 
 
-for(let i =1 ; i<=10 ;i++){
-    console.log(`${n} * ${i} = ${n*i}`);
-}
+// for(let i =1 ; i<=10 ;i++){
+//     console.log(`${n} * ${i} = ${n*i}`);
+// }
 
 // output 
 //  n=5
@@ -372,3 +372,17 @@ for(let i =1 ; i<=10 ;i++){
 // 5 * 8 = 40
 // 5 * 9 = 45
 // 5 * 10 = 50
+
+// 27- Sum up to n terms.
+
+let n = +prompt("enter an number :");
+
+let sum =0;
+for(let i =1 ; i<=n ;i++){
+     sum +=i;
+}
+console.log("sum is ", sum);
+// output 
+//  n=5
+// sum is 15
+
