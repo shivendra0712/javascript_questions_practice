@@ -311,11 +311,26 @@
 
 // 23- Accept an integer and Print hello world n times
 
-let n = +prompt("enter an number :");
+// let n = +prompt("enter an number :");
 
-for(let i =0 ; i< n;i++){
-    console.log("hello world");
-}
+// for(let i =0 ; i< n;i++){
+//     console.log("hello world");
+// }
 
 // output
 // 3 hello world
+
+// 24- Print natural number up to n. 
+
+let n = +prompt("enter an number :");
+
+
+for(let i =1 ; i<=n ;i++){
+    console.log(i);
+}
+
+// output 
+//  n=3
+// 1
+// 2
+// 3 
