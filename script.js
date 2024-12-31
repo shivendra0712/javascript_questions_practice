@@ -525,7 +525,27 @@
 
 // 36- Accept a number and print its reverse
 
+// let n = +prompt("enter a number :");
+// let rem=0;
+// let ans=0;
+// while(n != 0){
+//  rem = n%10;
+//  ans = (ans * 10) + rem;
+//  n = Math.floor(n/10);
+ 
+// }
+// console.log(ans);
+
+// output
+// n= 12345
+// 54321
+
+// 37- Accept a number and check if it is a pallindromic number (If number and its reverse are equal)
+// Ex - 12321 - Rerverse - 12321
+
+
 let n = +prompt("enter a number :");
+let val =n;
 let rem=0;
 let ans=0;
 while(n != 0){
@@ -534,12 +554,10 @@ while(n != 0){
  n = Math.floor(n/10);
  
 }
-console.log(ans);
+console.log(val == ans ? "pallindromic": "not pallindromic");
 
 // output
 // n= 12345
-// 54321
-
-
+// not pallindromic
 
 
