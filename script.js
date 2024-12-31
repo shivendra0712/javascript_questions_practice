@@ -401,21 +401,40 @@
 
 //  29- Print the sum of all even & odd numbers in a range seperately.
 
-let n = +prompt("enter an number :");
+// let n = +prompt("enter an number :");
 
-let sum_even =0 , sum_odd =0;
+// let sum_even =0 , sum_odd =0;
 
-for(let i =1 ; i<=n ;i++){
-    if(i%2 == 0){
-        sum_even += i
-    }
-    else if(i%2 != 0){
-        sum_odd += i
-    }
-}
+// for(let i =1 ; i<=n ;i++){
+//     if(i%2 == 0){
+//         sum_even += i
+//     }
+//     else if(i%2 != 0){
+//         sum_odd += i
+//     }
+// }
 
-console.log(`sum of even number is ${sum_even} and sum of odd number is ${sum_odd}`);
+// console.log(`sum of even number is ${sum_even} and sum of odd number is ${sum_odd}`);
 
 // output 
 //  n= 10
 // sum of even number is 30 and sum of odd number is 25
+
+// 30- Print all the factors of a number.
+
+
+let n = +prompt("enter an number :");
+
+for(let i =1 ; i<=n ;i++){
+    if(n%i == 0){
+        console.log(i);
+    }
+}
+
+// output
+//  n=10
+// 1 
+// 2
+// 5
+// 10
+
