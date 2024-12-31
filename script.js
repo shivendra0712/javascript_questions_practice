@@ -494,15 +494,31 @@
 // 		1
 
 
-let n = +prompt("enter a number :");
-let rem=0;
-while(n != 0){
- rem = n%10;
- n = Math.floor(n/10);
- console.log(rem);
-}
+// let n = +prompt("enter a number :");
+// let rem=0;
+// while(n != 0){
+//  rem = n%10;
+//  n = Math.floor(n/10);
+//  console.log(rem);
+// }
 
 // output
 // 3
 // 2
 // 1
+
+// 35- Sum of digits of a number, 936 = 18
+
+
+// let n = +prompt("enter a number :");
+// let sum=0;
+// while(n != 0){
+//  sum += n%10;
+//  n = Math.floor(n/10);
+ 
+// }
+// console.log(sum);
+// output
+// 18
+
+
