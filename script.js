@@ -322,15 +322,29 @@
 
 // 24- Print natural number up to n. 
 
-let n = +prompt("enter an number :");
+// let n = +prompt("enter an number :");
 
 
-for(let i =1 ; i<=n ;i++){
-    console.log(i);
-}
+// for(let i =1 ; i<=n ;i++){
+//     console.log(i);
+// }
 
 // output 
 //  n=3
 // 1
 // 2
 // 3 
+
+// 25- Reverse for loop. Print n to 1.
+
+let n = +prompt("enter an number :");
+
+for(let i = n ; i>=1 ;i--){
+    console.log(i);
+}
+
+// output 
+//  n=3
+// 3
+// 2
+// 1 
