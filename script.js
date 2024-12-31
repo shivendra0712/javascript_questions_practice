@@ -479,10 +479,30 @@
 // 	OP - 2^5 = 32
 
 
-let a = +prompt("enter a number :");
-let b = +prompt("enter b number :");
+// let a = +prompt("enter a number :");
+// let b = +prompt("enter b number :");
 
-console.log(Math.pow(a,b));
+// console.log(Math.pow(a,b));
 
 // output
 //  32
+
+// 34- Seprate each digit of a number and print it on the new line ex - 123 
+// 	OP
+// 		3
+// 		2
+// 		1
+
+
+let n = +prompt("enter a number :");
+let rem=0;
+while(n != 0){
+ rem = n%10;
+ n = Math.floor(n/10);
+ console.log(rem);
+}
+
+// output
+// 3
+// 2
+// 1
