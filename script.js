@@ -512,13 +512,34 @@
 
 // let n = +prompt("enter a number :");
 // let sum=0;
+// let rem=0;
 // while(n != 0){
-//  sum += n%10;
+// rem = n%10;
+//  sum = sum + rem;
 //  n = Math.floor(n/10);
- 
+
 // }
 // console.log(sum);
 // output
 // 18
+
+// 36- Accept a number and print its reverse
+
+let n = +prompt("enter a number :");
+let rem=0;
+let ans=0;
+while(n != 0){
+ rem = n%10;
+ ans = (ans * 10) + rem;
+ n = Math.floor(n/10);
+ 
+}
+console.log(ans);
+
+// output
+// n= 12345
+// 54321
+
+
 
 
