@@ -375,14 +375,27 @@
 
 // 27- Sum up to n terms.
 
-let n = +prompt("enter an number :");
+// let n = +prompt("enter an number :");
 
-let sum =0;
-for(let i =1 ; i<=n ;i++){
-     sum +=i;
-}
-console.log("sum is ", sum);
+// let sum =0;
+// for(let i =1 ; i<=n ;i++){
+//      sum +=i;
+// }
+// console.log("sum is ", sum);
+
 // output 
 //  n=5
 // sum is 15
+
+// 28- Factorial of a number
+
+let n = +prompt("enter an number :");
+let fac =1;
+for(let i =1 ; i<=n ;i++){
+     fac *=i;
+}
+console.log(`Factorial number of ${n} is ${fac}`);
+
+// output 
+// Factorial number of 5 is 120
 
