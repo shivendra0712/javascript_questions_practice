@@ -307,3 +307,15 @@
 // output
 // vowel is A
 
+// ------------------------------------------------------------------LOOPS Day 12 to 16---------------------------------------------------------------
+
+// 23- Accept an integer and Print hello world n times
+
+let n = +prompt("enter an number :");
+
+for(let i =0 ; i< n;i++){
+    console.log("hello world");
+}
+
+// output
+// 3 hello world
